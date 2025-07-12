@@ -2,7 +2,11 @@
 URL configuration for Tesis_JuntaVecino project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
+<<<<<<< HEAD
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
+=======
+    https://docs.djangoproject.com/en/4.2/topics/http/urls/
+>>>>>>> dbd7edb0 (Primer commit: Estructura inicial del proyecto)
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -29,5 +33,5 @@ urlpatterns = [
     path('administracion/', include('apps.administracion.urls')),
     path('documentos/', include('apps.documentos.urls')),
     path('recomendaciones/', include('apps.recomendaciones.urls')),
-   
-]
+   ]
+
