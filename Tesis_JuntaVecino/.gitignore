@@ -1,9 +1,0 @@
-# Entorno virtual
-venv/
-
-# Cachés de Python
-__pycache__/
-
-# Base de datos local
-*.sqlite3
-.env/
